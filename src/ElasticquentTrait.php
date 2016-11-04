@@ -253,7 +253,7 @@ trait ElasticquentTrait
      *
      * Using this method, a custom query can be sent to Elasticsearch.
      *
-     * @param  $params parameters to be passed directly to Elasticsearch
+     * @param array $params parameters to be passed directly to Elasticsearch
      * @return ElasticquentResultCollection
      */
     public static function complexSearch($params)
